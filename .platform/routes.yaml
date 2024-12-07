@@ -1,9 +1,9 @@
-#每条路由都描述了Platform.sh该如何处理到来的请求（用URL表示）
+# 每个路由描述了Platform.sh如何处理传入的URL。
 
-"https://{default}/":
-  type:upstream
-  upstream:"ll_project:http"
+"https://{default}/": 
+  type: upstream
+  upstream: "ll_project:http"
 
-"https"://www.{default}/":
-  type:redirect
-  to:"https://{default}/"
+"https://www.{default}/":
+  type: redirect
+  to: "https://{default}/"
