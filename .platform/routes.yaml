@@ -1,6 +1,6 @@
 # 每个路由描述了Platform.sh如何处理传入的URL。
 
-"https://{default}/": 
+"https://{default}/":
   type: upstream
   upstream: "ll_project:http"
 
